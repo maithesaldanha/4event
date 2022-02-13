@@ -1,0 +1,56 @@
+@import url(config.css);
+@import url(bootstrap.min.css);
+@import url(responsive.css);
+
+body, html{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2f2;
+}
+
+#header{
+    width:100%;
+    background-color:white;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    border-bottom:solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--secundaria);
+    color: var(--secundaria);
+}
+
+#imagem {
+    align-items: center;
+    margin-left: 0px;
+    position: fixed;
+}
+
+#imagem p {
+    align-items: center;
+    display: inline-block;
+    text-align: left;
+    float:inline-start;
+    vertical-align:middle;
+    margin-left: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
