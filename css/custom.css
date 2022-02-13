@@ -5,7 +5,7 @@ body, html{
 
 #header{
     width:100%;
-    background-color: var(--primaria);
+    background-color:#f2f2f2;
     transition: background ease-out 0.2s;
 }
 
@@ -22,7 +22,7 @@ body, html{
     padding-right: 0%;
     margin-left: 15px;
     margin-right: 15px;
-    color: #f2f2f2;
+    color: black;
     border-bottom:solid 4px transparent;
 }
 
@@ -31,19 +31,6 @@ body, html{
     color: var(--secundaria);
 }
 
-#carousel{
-    width: 50%
-}
-
-#carousel .container {
-    width: 20%;
-    height: 20%;
-}
-
-#carousel .carousel-inner {
-    width: 50%;
-    height:50%;
-}
 
 #conteudo .content {
     justify-content: center;
@@ -68,8 +55,12 @@ body, html{
     font-weight: bold;
 }
 
-#cards {
+.cartoes{
     background-color: var(--primaria);
+}
+
+#cards {
+    background-color: #f2f2f2;
     padding: 30px 0px;
 }
 
@@ -111,6 +102,8 @@ body, html{
 
 }
 
+
+
 .coluna{
     float: center;
     width: 30.33%;
@@ -129,7 +122,7 @@ body, html{
     font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    color: #f2f2f2;
+    color: black;
     font-size: 25px;
     text-align: center;
     
@@ -138,7 +131,7 @@ body, html{
 .pagamento {
     font-family: 'PT Sans Narrow', sans-serif;
     text-align: center;
-    color: #f2f2f2;
+    color: black;
     font-size: 25px;
     text-align: center;
 }
@@ -173,11 +166,47 @@ body, html{
     width: 150px;
 }
 
-.icons{
-    align-items: flex-start;
-    justify-content: center;
-    justify-items: flex-start;
-    size-adjust: 20%;
-    gap:10px;
 
+footer{
 }
+
+.margin-below-1{
+margin-bottom:1em;
+}
+
+.smedialinks i{
+display:inline-block;
+width:16px;
+height:16px;
+font-size:0.9em;
+background:#333;
+padding:8px;
+border:1px solid white;
+border-radius:50%;
+margin-left:20px;
+}
+i:hover{
+opacity:0.8;
+cursor:pointer;
+}
+@media (max-width:750px){
+.seperator{
+  flex-direction:column;
+}
+.col-1,.col-1 h3{
+  display:none;
+}
+.col-1.first{
+  display:block; 
+}
+footer{
+  text-align:center;
+}
+select{
+  margin-left:auto;
+  margin-right:auto;
+}
+}
+
+
+
