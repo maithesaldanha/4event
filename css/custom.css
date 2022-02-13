@@ -1,0 +1,183 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primaria);
+}
+
+#header{
+    width:100%;
+    background-color: var(--primaria);
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #f2f2f2;
+    border-bottom:solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--secundaria);
+    color: var(--secundaria);
+}
+
+#carousel{
+    width: 50%
+}
+
+#carousel .container {
+    width: 20%;
+    height: 20%;
+}
+
+#carousel .carousel-inner {
+    width: 50%;
+    height:50%;
+}
+
+#conteudo .content {
+    justify-content: center;
+    display: flex;
+}
+
+#texto {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 22px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#servicos .titulo{
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#cards {
+    background-color: var(--primaria);
+    padding: 30px 0px;
+}
+
+.title {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.title p {
+    font-size: 21px;
+}
+
+.card-body {
+    box-shadow: 0 0 20px 7px rgba(0, 0 , 0, 0.1);
+}
+
+.card {
+    margin: 20px 10px;
+    width:17rem;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.card-body a {
+    color: darkslategrey;
+    font-size: 15px;
+    margin-top: auto;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.card-body h5 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: inherit;
+    text-align: initial;
+    color: black
+
+}
+
+.coluna{
+    float: center;
+    width: 30.33%;
+    align-items: center;
+    display: flex;
+    padding: 0px 60px;
+}
+   
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.coluna p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.pagamento {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 25px;
+    text-align: center;
+}
+
+#formulario {
+    width: 50%;
+    align-items: center;
+    margin-left: 380px;
+}
+
+.form-group label {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#formulario .container {
+    align-items: center;
+    display:contents;
+    float: center;
+  
+}
+
+.btn {
+    background-color: var(--secundaria);
+    margin-left: 280px;
+    margin-top: 16px;
+    height: 60px;
+    width: 150px;
+}
+
+.icons{
+    align-items: flex-start;
+    justify-content: center;
+    justify-items: flex-start;
+    size-adjust: 20%;
+    gap:10px;
+
+}
